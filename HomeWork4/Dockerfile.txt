@@ -1,0 +1,4 @@
+FROM alpine:latest
+FROM python:3
+ADD Task_1 /
+CMD [ "python", "./Task_1" ]
